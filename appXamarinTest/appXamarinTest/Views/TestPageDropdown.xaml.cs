@@ -19,7 +19,10 @@ namespace EnvWinProjectQuizz.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            int cityId = ((TestDropdown)CityEntry.SelectedItem).IdCity;
+            int studentId = ((TestDropdown)StudentEntry.SelectedItem).IdStudent;
+            Label labelId = this.FindByName<Label>("labelId");
+
+            labelId.Text = studentId.ToString();
         }
     }
 }

@@ -10,8 +10,9 @@
   </ContentPage.BindingContext>
   <ContentPage.Content>
       <StackLayout>
-          <Picker ItemDisplayBinding="{Binding NameCity}" x:Name="CityEntry" Title="Select City" ItemsSource="{Binding CityList}" />
-          <Button Text="Click" Clicked="Button_Clicked"></Button>
+            <Picker ItemDisplayBinding="{Binding NameStudent}" x:Name="StudentEntry" Title="Select Student" ItemsSource="{Binding StudentList}" />
+            <Button Text="Click" Clicked="Button_Clicked"></Button>
+            <Label x:Name="labelId"/>
         </StackLayout>
   </ContentPage.Content>
 </ContentPage>

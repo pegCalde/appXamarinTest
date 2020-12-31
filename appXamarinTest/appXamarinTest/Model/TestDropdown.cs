@@ -6,7 +6,7 @@ namespace EnvWinProjectQuizz
 {
     public class TestDropdown
     {
-        public string NameCity { get; set; }
-        public int IdCity { get; set; }
+        public string NameStudent { get; set; }
+        public int IdStudent { get; set; }
     }
 }

@@ -7,38 +7,28 @@ namespace EnvWinProjectQuizz.Model
 {
     class TestDropdownViewModel
     {
-        public IList<TestDropdown> CityList { get; set; }
+        public IList<TestDropdown> StudentList { get; set; }
 
         public TestDropdownViewModel()
         {
             try
             {
-                CityList = new ObservableCollection<TestDropdown>();
+                StudentList = new ObservableCollection<TestDropdown>();
 
-                CityList.Add(new TestDropdown
+                StudentList.Add(new TestDropdown
                 {
-                    IdCity = 1,
-                    NameCity = "Illidan"
+                    IdStudent = 1,
+                    NameStudent = "Savin Guillaume"
                 });
-                CityList.Add(new TestDropdown
+                StudentList.Add(new TestDropdown
                 {
-                    IdCity = 2,
-                    NameCity = "Jaina"
+                    IdStudent = 2,
+                    NameStudent = "Calderon Peggy"
                 });
-                CityList.Add(new TestDropdown
+                StudentList.Add(new TestDropdown
                 {
-                    IdCity = 3,
-                    NameCity = "Anduin"
-                });
-                CityList.Add(new TestDropdown
-                {
-                    IdCity = 4,
-                    NameCity = "Varian"
-                });
-                CityList.Add(new TestDropdown
-                {
-                    IdCity = 5,
-                    NameCity = "Thrall"
+                    IdStudent = 3,
+                    NameStudent = "Tachibana Kanade"
                 });
             }
             catch (Exception e)
